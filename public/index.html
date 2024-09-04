@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Currently Playing</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body class="theme-dark">
+  <div id="app">
+    <div id="theme-selector">
+      <label for="themes">Choose a theme:</label>
+      <select id="themes">
+        <option value="dark">The Legality (Dark Mode)</option>
+        <option value="light">The Illegality (Light Mode)</option>
+        <option value="ocean">Ocean Harmony</option>
+        <option value="forest">Forest Harmony</option>
+        <option value="sunset">You just lost your rankup game</option>
+      </select>
+    </div>
+    <div id="user-info">
+      <img id="profile-picture" src="" alt="Profile Picture">
+      <p id="username">Loading...</p>
+    </div>
+    <h1>Currently Playing</h1>
+    <div id="track-info">
+      <p>Loading...</p>
+    </div>
+    <div id="progress-bar-container">
+      <span id="current-time">0:00</span>
+      <div id="progress-bar"></div>
+      <span id="total-time">0:00</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
